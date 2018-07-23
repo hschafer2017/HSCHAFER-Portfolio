@@ -1,0 +1,36 @@
+/*----------NAVBAR---------*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+}
+
+.navbar .navbar-collapse {
+  text-align: right;
+}
+
+a {
+    background-color: #EEEEEE;
+}
+
+a:hover {
+    color: #77A6F7;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+
+/*----------JUMBOTRON----------*/
+.jumbotron {
+    background-attachment: fixed; 
+    background-image: url('jumbo1.jpg'); 
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 40%;
+}
+
+.name {
+    padding-top: 5%;
+}

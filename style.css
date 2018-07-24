@@ -11,6 +11,14 @@
 
 a {
     background-color: #E4E4E4;
+    font-weight: bold;
+    color: #88888;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.navbar-default .navbar-nav li a:hover{
+    color: #564F6F;
 }
 
 .navbar-right {
@@ -25,7 +33,7 @@ a {
     background-image: url('jumbo2.jpg');
     background-position: bottom;
     background-size: cover;
-    padding-bottom: 40%;
+    padding-bottom: 50%;
 }
 
 .name {
@@ -33,15 +41,33 @@ a {
 }
 
 /*------------ABOUT----------*/
+.about-row {
+    padding-bottom: 10%;
+}
 h2 {
     margin-left: 15px;
 }
 
+/*------------WORK----------*/
+.work {
+    background-attachment: fixed;
+    background-image: url('desk.jpg');
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 45%;
+}
+
+ /*-------CONTACT-----------*/
+ .contact {
+    background-attachment: fixed;
+    background-image: url('computer.jpg');
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 45%;
+ }
+
 /*-----------FOOTER----------*/
 
-.icons {
-    /*padding-bottom:15px;*/
-}
 a {
     padding-right: 10px;
     padding-left: 10px;
@@ -65,11 +91,15 @@ i {
     font-size: 24px;
     text-align: center;
     vertical-align:middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 
 }
 
 i:hover {
     color: #564F6F;
+     
 }
 
 

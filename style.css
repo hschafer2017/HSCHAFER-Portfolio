@@ -6,15 +6,11 @@
 }
 
 .navbar .navbar-collapse {
-  text-align: right;
+    text-align: right;
 }
 
 a {
-    background-color: #EEEEEE;
-}
-
-a:hover {
-    color: #77A6F7;
+    background-color: #E4E4E4;
 }
 
 .navbar-right {
@@ -23,9 +19,10 @@ a:hover {
 
 
 /*----------JUMBOTRON----------*/
+
 .jumbotron {
-    background-attachment: fixed; 
-    background-image: url('jumbo1.jpg'); 
+    background-attachment: fixed;
+    background-image: url('jumbo2.jpg');
     background-position: bottom;
     background-size: cover;
     padding-bottom: 40%;
@@ -34,3 +31,45 @@ a:hover {
 .name {
     padding-top: 5%;
 }
+
+/*------------ABOUT----------*/
+h2 {
+    margin-left: 15px;
+}
+
+/*-----------FOOTER----------*/
+
+.icons {
+    /*padding-bottom:15px;*/
+}
+a {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.fab, .fas {
+    line-height: 7.5px;
+}
+
+i {
+    display: inline-block;
+    
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    vertical-align:middle;
+
+}
+
+i:hover {
+    color: #564F6F;
+}
+
+

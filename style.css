@@ -9,15 +9,28 @@
     text-align: right;
 }
 
+@media (min-width: 768px) {
+    .navbar-nav li a {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+
 a {
     background-color: #E4E4E4;
-    font-weight: bold;
     color: #88888;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
-.navbar-default .navbar-nav li a:hover{
+
+.navbar-default .navbar-nav li a:hover {
     color: #564F6F;
 }
 
@@ -41,65 +54,107 @@ a {
 }
 
 /*------------ABOUT----------*/
+
 .about-row {
     padding-bottom: 10%;
 }
+
 h2 {
     margin-left: 15px;
 }
 
 /*------------WORK----------*/
+
 .work {
     background-attachment: fixed;
     background-image: url('desk.jpg');
-    background-position: left;
+    background-position: center;
     background-size: cover;
     padding-bottom: 45%;
 }
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 2.5%;
+}
 
- /*-------CONTACT-----------*/
- .contact {
+h5 {
+    font-size: 22px
+}
+
+h6 {
+   font-size: 16px; 
+}
+
+.card-text {
+    font-size: 13px;
+}
+.fa-desktop {
+    font-size: 25px;
+}
+
+
+/*-------CONTACT-----------*/
+
+.contact {
     background-attachment: fixed;
     background-image: url('computer.jpg');
     background-position: left;
     background-size: cover;
-    padding-bottom: 45%;
- }
+    padding-bottom: 30%;
+}
+
+.contact-form {
+    width: 400px;
+    height: 200px;
+    text-align: left;
+}
 
 /*-----------FOOTER----------*/
 
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
 a {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     background-color: transparent;
 }
 
-.fab, .fas {
-    line-height: 7.5px;
+.fab,
+.fas {
+    line-height: 2px;
 }
 
 i {
     display: inline-block;
-    
     box-shadow: 0px 0px 2px #888;
     background-color: #C3C3C3;
     color: #8F8F8F;
-    width: 36px;
-    height: 36px;
-    padding: 16px 0;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 
 }
 
 i:hover {
     color: #564F6F;
-     
+
 }
-
-

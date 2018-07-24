@@ -1,3 +1,7 @@
+body {
+    background-color: #fafafa
+}
+
 /*----------NAVBAR---------*/
 
 .navbar {
@@ -70,12 +74,21 @@ h2 {
     background-image: url('desk.jpg');
     background-position: center;
     background-size: cover;
-    padding-bottom: 45%;
+    padding-bottom: 50px;
 }
+
 .card {
-    background-color: white;
-    padding: 10px;
+    background-color: #fafafa;
     border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
 }
 
 h5 {
@@ -83,12 +96,31 @@ h5 {
 }
 
 h6 {
-   font-size: 16px; 
+    font-size: 16px;
 }
 
 .card-text {
     font-size: 13px;
 }
+
+#desktop-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+}
+
+#github-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 36px;
+    width: 54px;
+    height: 54px;
+    line-height: 15px;
+}
+
 .fa-desktop {
     font-size: 25px;
 }

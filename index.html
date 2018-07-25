@@ -17,13 +17,13 @@
 
 
     <!------------TOP JUMBOTRON/NAVBAR------------>
-    <div class="jumbotron">
+    <div class="jumbotron main">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
             <div class="container" style="text-align: right;
     margin-right: 1%;
     margin-top: 1%;">
                 <div class="navbar-header">
-                    <a href="#" class = 'language'>F R</a>
+                    <a href="#" class='language'>F R</a>
                     <button type="button" class="navbar-toggle collapsed btn-lg" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -70,24 +70,39 @@
         <br>
         <br>
     </div>
+
     <!--------------WORK------------->
     <div class="jumbotron work">
         <div class="container">
-            <div class="col-xs-hidden col-sm-4">
+            <div class="col-xs-6 col-sm-4 project-cards">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Timing Assistant</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Flask, JavaScript, NoSQL</h6>
+                        <p id="card-text">A stopwatch to time multiple athletes simultaneously in swimming and track.</p>
+                        <div class="row" style='text-align: center; padding-top: 10px;'>
+                            <a href="https://timing-assistant.herokuapp.com/" class="card-link"><i class="fas fa-desktop" id='desktop-icon'></i></a>
+                            <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link"><i class="fab fa-github" id='github-icon'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Site Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
-                        <p class="card-text">Brief Overview of what the site or app does.</p>
+                        <p id="card-text">Brief Overview of what the site or app does.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
                             <a href="#" class="card-link"><i class="fas fa-desktop" id='desktop-icon'></i></a>
                             <a href="#" class="card-link"><i class="fab fa-github" id='github-icon'></i></a>
                         </div>
                     </div>
                 </div>
-                <br>
+            </div>
+            <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
-                    <div class="card-body">
+                    <div id="card-text">
                         <h5 class="card-title">Site Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
                         <p class="card-text">Brief Overview of what the site or app does.</p>
@@ -98,21 +113,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-hidden col-sm-4">
+            <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Site Name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
-                        <p class="card-text">Brief Overview of what the site or app does.</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="#" class="card-link"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="#" class="card-link"><i class="fab fa-github" id='github-icon'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
+                    <div id="card-text">
                         <h5 class="card-title">Site Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
                         <p class="card-text">Brief Overview of what the site or app does.</p>
@@ -123,25 +126,25 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-hidden col-sm-4">
+            <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Site Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
-                        <p class="card-text">Brief Overview of what the site or app does.</p>
-
+                        <p id="card-text">Brief Overview of what the site or app does.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
                             <a href="#" class="card-link"><i class="fas fa-desktop" id='desktop-icon'></i></a>
                             <a href="#" class="card-link"><i class="fab fa-github" id='github-icon'></i></a>
                         </div>
                     </div>
                 </div>
-                <br>
+            </div>
+            <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Site Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Highlight Technologies</h6>
-                        <p class="card-text">Brief Overview of what the site or app does.</p>
+                        <p id="card-text">Brief Overview of what the site or app does.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
                             <a href="#" class="card-link"><i class="fas fa-desktop" id='desktop-icon'></i></a>
                             <a href="#" class="card-link"><i class="fab fa-github" id='github-icon'></i></a>
@@ -174,29 +177,38 @@
         <br>
         <br>
     </div>
+
     <!---------CONTACT--------->
     <div class="jumbotron contact">
         <div class="container">
-            <div class="col-xs-hidden col-sm-6"></div>
-            <div class="col-xs-hidden col-sm-6 contact-form">
+            <div class="col-sm-6"></div>
+            <div class="col-xs-12 col-sm-6 contact-form">
                 <br>
                 <h3>C O N T A C T</h3>
                 <br>
                 <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                        </div>
                     </div>
                     <br>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPhone" placeholder="Phone">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputPhone" placeholder="Phone">
+                        </div>
                     </div>
                     <br>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
                     </div>
                     <br>
-                    <div class="form-group message">
-                        <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                    <div class="row">
+                        <div class="form-group message">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                        </div>
                     </div>
                     <br>
                     <button type="submit" class="btn btn-default">Send</button>
@@ -218,6 +230,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

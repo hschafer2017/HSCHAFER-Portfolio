@@ -19,6 +19,7 @@ body {
         padding-bottom: 15px;
         padding-right: 25px;
         padding-left: 25px;
+        color: transparent;
     }
 }
 
@@ -56,7 +57,8 @@ a {
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left,
+    .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
@@ -64,7 +66,7 @@ a {
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -84,19 +86,22 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
-        display:block !important;
+    .collapse.in {
+        display: block !important;
     }
 }
 
 /*----------JUMBOTRON----------*/
 
-.jumbotron {
+.main {
     background-attachment: fixed;
     background-image: url('jumbo2.jpg');
     background-position: bottom;
     background-size: cover;
-    padding-bottom: 50%;
+    height: 95vh;
+    width: 100vw;
+    padding: 0;
+    
 }
 
 .name {
@@ -120,7 +125,24 @@ h2 {
     background-image: url('desk2.jpg');
     background-position: center;
     background-size: cover;
+    width: 100vw;
     padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .project-cards {}
+}
+
+.col-xs-6 {
+    align-items: center;
 }
 
 .card {
@@ -145,8 +167,8 @@ h6 {
     font-size: 16px;
 }
 
-.card-text {
-    font-size: 13px;
+#card-text {
+    font-size: 1.5rem;
 }
 
 #desktop-icon {
@@ -179,7 +201,7 @@ h6 {
     background-image: url('computer.jpg');
     background-position: left;
     background-size: cover;
-    padding-bottom: 30%;
+    padding-bottom: 360px;
 }
 
 .contact-form {

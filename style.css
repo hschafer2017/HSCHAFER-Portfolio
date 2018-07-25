@@ -1,5 +1,6 @@
 body {
     background-color: #fdfdfd;
+    font-family: 'Nobile', sans-serif;
 }
 
 /*----------NAVBAR---------*/
@@ -26,7 +27,7 @@ body {
 .language {
     display: inline-block;
     padding-right: 20px;
-    line-height: 40px;
+    line-height: 44px;
 }
 
 .language:hover {
@@ -112,10 +113,13 @@ a {
 
 .about-row {
     padding-bottom: 10%;
+    font-size: 1.75rem;
+    line-height: 2;
 }
 
 h2 {
     margin-left: 15px;
+    font-size: 3rem;
 }
 
 /*------------WORK----------*/
@@ -129,12 +133,14 @@ h2 {
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
+    font-weight: 300;
 }
 
 .project-cards {
     display: inline-table;
     justify-content: center;
     align-items: center;
+    
 }
 
 @media (max-width: 768px) {
@@ -157,14 +163,24 @@ h2 {
     align-items: center;
     z-index: 2;
     display: block;
+    opacity: 0.8;
+     transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
 }
 
-h5 {
-    font-size: 22px
+.card:hover {
+    opacity: 1;
 }
 
-h6 {
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-subtitle {
     font-size: 16px;
+    font-weight: bold;
 }
 
 #card-text {

@@ -218,40 +218,39 @@ h2 {
 .skill-circle {
     display: inline-table;
     margin-bottom: 55px;
+    padding-left: 6%;
 }
 
 .arc1 {
     width: 160px;
     height: 160px;
     background: #564F6F;
-    -webkit-transform-origin: -31% 61%;
+    -webkit-transform-origin: -51% 91%;
     margin-left: -30px;
     margin-top: 20px;
-    -webkit-transform: translate(-54px,50px);
-    -moz-transform: translate(-54px,50px);
-    -o-transform: translate(-54px,50px);
+    -webkit-transform: translate(-64px,50px);
+    -moz-transform: translate(-64px,50px);
+    -o-transform: translate(-64px,50px);
 }
 .arc2 {
-    width: 160px;
-    height: 160px;
+   width: 193px;
+    height: 177px;
     background: #564F6F;
-    -webkit-transform: skew(45deg,0deg);
-    -moz-transform: skew(45deg,0deg);
-    -o-transform: skew(45deg,0deg);
-    margin-left: -180px;
+    -webkit-transform: skew(55deg,0deg);
+    -moz-transform: skew(55deg,0deg);
+    -o-transform: skew(55deg,0deg);
+    margin-left: -115px;
     margin-top: -90px;
     position: absolute;
     -webkit-transition: all .5s linear;
-    -moz-transition: all .5s linear;
-    -o-transition: all .5s linear;
 }
 
-.arc-container:hover .arc2 {
-    margin-left: -50px;
-    -webkit-transform: skew(-20deg,0deg);
-    -moz-transform: skew(-20deg,0deg);
-    -o-transform: skew(-20deg,0deg);
-}
+/*.arc-container:hover .arc2 {*/
+/*    margin-left: -50px;*/
+/*    -webkit-transform: skew(-20deg,0deg);*/
+/*    -moz-transform: skew(-20deg,0deg);*/
+/*    -o-transform: skew(-20deg,0deg);*/
+/*}*/
 
 .arc-wrapper {
 width: 120px;

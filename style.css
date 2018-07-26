@@ -209,7 +209,122 @@ h2 {
     font-size: 25px;
 }
 
+/*--------SKILLS-----------*/
 
+.arc1 {
+    width: 160px;
+    height: 160px;
+    background: #564F6F;
+    -webkit-transform-origin: -31% 61%;
+    margin-left: -30px;
+    margin-top: 20px;
+    -webkit-transform: translate(-54px,50px);
+    -moz-transform: translate(-54px,50px);
+    -o-transform: translate(-54px,50px);
+}
+.arc2 {
+    width: 160px;
+    height: 160px;
+    background: #564F6F;
+    -webkit-transform: skew(45deg,0deg);
+    -moz-transform: skew(45deg,0deg);
+    -o-transform: skew(45deg,0deg);
+    margin-left: -180px;
+    margin-top: -90px;
+    position: absolute;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.arc-container:hover .arc2 {
+    margin-left: -50px;
+    -webkit-transform: skew(-20deg,0deg);
+    -moz-transform: skew(-20deg,0deg);
+    -o-transform: skew(-20deg,0deg);
+}
+
+.arc-wrapper {
+width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    background: #C3C3C3;
+    overflow: hidden;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+}
+
+.arc-lowerInset {
+    font-family: "Josefin Sans";
+    font-weight: 100;
+    position: absolute;
+    font-size: 413px;
+    margin-top: -64px;
+    z-index: 5;
+    left: 30px;
+    line-height: 327px;
+    height: 280px;
+    color: white;
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,1));
+}
+.arc-overlay {
+    width: 110px;
+    height: 110px;
+    background-color: #fdfdfd;
+    padding-left: 26px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 100px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 22px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 5;
+    top: 55px;
+    left: 5px;
+}
+.arc-container {
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+
+
+.skill-icon {
+    text-align: center; 
+    justify-content:center;
+    align-items: center;
+    padding-top: 40px;
+}
+#skill-icon {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 101px;
+    height: 101px;
+    padding: 40px 0;
+    border-radius: 50%;
+    font-size: 68px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    line-height: 20px;
+
+}
+
+#skill-icon:hover {
+    color: #564F6F;
+
+}
 /*-------CONTACT-----------*/
 
 .contact {

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
-    <script type="text/javascript" src="./libraries/jquery.min.js"></script>
-    <script type="text/javascript" src="./libraries/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -25,7 +23,7 @@
     margin-top: 1%;">
                 <div class="navbar-header">
                     <a href="#" class='language'>F R</a>
-                    <button type="button" class="navbar-toggle collapsed btn-lg" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -36,9 +34,9 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">A B O U T</a></li>
-                        <li><a href="#">W O R K</a></li>
-                        <li><a href="#">C O N T A C T</a></li>
+                        <li><a class='page-scroll' href="#about">A B O U T</a></li>
+                        <li><a class='page-scroll' href="#work">W O R K</a></li>
+                        <li><a class='page-scroll' href="#contact">C O N T A C T</a></li>
                     </ul>
 
                 </div>
@@ -47,14 +45,13 @@
         <div class="container">
             <br>
             <h1 class='name'>Haley Schafer</h1>
-            <p>Full-Stack Software Developer</p>  
-           
+            <p>Full-Stack Software Developer</p>
+
         </div>
     </div>
-
     <!---------ABOUT ME---------->
     <div class="container about-row">
-        <div class="row">
+        <div class="row" id='about'>
             <br>
             <br>
             <h2>A B O U T</h2>
@@ -76,8 +73,8 @@
     </div>
 
     <!--------------WORK------------->
-    <div class="jumbotron work">
-        <div class="container">
+    <div class="jumbotron work" >
+        <div class="container" id='work'>
             <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
@@ -95,7 +92,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">PC Swimming</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Django, AWS, Travis-CI </h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Django, Python, AWS </h6>
                         <p id="card-text">An e-commerce site for PC Swimming and Diving for swimmers and alumni.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
                             <a href="https://www.https://pcswimming-project.herokuapp.com/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
@@ -108,7 +105,7 @@
                 <div class="card">
                     <div id="card-text">
                         <h5 class="card-title">Give A GIF</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">RESTful API, Flask, JavaScript</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">RESTful API, JavaScript, Flask, Python</h6>
                         <p id="card-text">A random GIF generator using an API and a backend.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
                             <a href="#" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
@@ -184,7 +181,7 @@
 
     <!---------CONTACT--------->
     <div class="jumbotron contact">
-        <div class="container">
+        <div class="container" id='contact'>
             <div class="col-sm-6"></div>
             <div class="col-xs-12 col-sm-6 contact-form">
                 <br>
@@ -234,7 +231,10 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" src="./libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="./libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.min.js"></script>
+    <script type="text/javascript" src="creative.js"></script>
 </body>
 
 </html>

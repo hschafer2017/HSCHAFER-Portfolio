@@ -53,6 +53,7 @@
 
         </div>
     </div>
+    
     <!---------ABOUT ME---------->
     <div class="container about-row">
         <div class="row" id='about'>
@@ -167,7 +168,7 @@
             <br>
             <h2>S K I L L S</h2>
         </div>
-        <div class="container">
+        <div class="container skills-inner">
             <div class="col-xs-6 col-sm-4 skill-circle">
                 <div class="arc-container">
                     <div class="arc-overlay">
@@ -250,22 +251,23 @@
                 <br>
                 <h2 id='contact-head'>C O N T A C T</h2>
                 <br>
-                <form>
+                <form action="https://formspree.io/hschafer@umich.edu"
+      method="POST">
                     <div class="row">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                            <input type="text" class="form-control" id="exampleInputName" name= 'Name' placeholder="Name">
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputPhone" placeholder="Phone">
+                            <input type="text" class="form-control" id="exampleInputPhone" name='Phone' placeholder="Phone">
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" name='Email' placeholder="Email">
                         </div>
                     </div>
                     <br>
@@ -275,7 +277,7 @@
                         </div>
                     </div>
                     <br>
-                    <button type="submit" id='contact-btn' class="btn btn-default">Send</button>
+                    <input type="submit" value='Send' id='contact-btn' placeholder='Send' class="btn btn-default">
                 </form>
             </div>
         </div>

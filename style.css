@@ -12,8 +12,8 @@ body {
 
 .navbar .navbar-collapse {
     text-align: right;
+    border-top: 1px solid transparent;
 }
-
 
 .navbar-nav li a {
     padding-top: 20px;
@@ -101,7 +101,7 @@ a {
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    padding: 0;
+    /*padding: 0;*/
 
 }
 .top {
@@ -227,6 +227,11 @@ h2 {
 
 }
 
+@media (min-width: 768px) {
+.skills-inner {
+    width: 738px;
+}
+}
 .skill-circle {
     display: inline-table;
     margin-bottom: 55px;

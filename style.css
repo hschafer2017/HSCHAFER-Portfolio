@@ -104,22 +104,31 @@ a {
     padding: 0;
 
 }
-
+.top {
+    padding-left: 12px;
+}
 .name {
     padding-top: 5%;
+    font-size: 8rem;
+}
+
+.title {
+    font-size: 3rem;
 }
 
 /*------------ABOUT----------*/
 
 .about-row {
     padding-bottom: 10%;
-    font-size: 1.75rem;
+    font-size: 1.75em;
     line-height: 2;
 }
 
 h2 {
     margin-left: 15px;
-    font-size: 3rem;
+}
+#about-p {
+    font-size: 1.75rem;
 }
 
 /*------------WORK----------*/
@@ -143,8 +152,10 @@ h2 {
 
 }
 
-@media (max-width: 768px) {
-    .project-cards {}
+@media (max-width: 768px) and (min-width: 375px) {
+    #work {
+        width:80%;
+    }
 }
 
 .col-xs-6 {
@@ -174,12 +185,12 @@ h2 {
 }
 
 .card-title {
-    font-size: 22px;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
 .card-subtitle {
-    font-size: 16px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
@@ -346,11 +357,15 @@ h2 {
     background-size: cover;
     padding-bottom: 100px;
     padding-top: 42px;
+    text-align: left;
 }
 
-.contact-form {
-    top: 50%;
-    justify-content: center;
+#contact-head {
+    margin-left: -11px;
+}
+
+#contact-btn {
+    margin-left: -15px;
 }
 
 /*-----------FOOTER----------*/

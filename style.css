@@ -8,6 +8,8 @@ body {
 .navbar {
     background: none;
     border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
 }
 
 .navbar .navbar-collapse {
@@ -96,17 +98,18 @@ a {
 
 .main {
     background-attachment: fixed;
-    background-image: url('jumbo2.jpg');
+    background-image: url('./images/jumbo2.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    /*padding: 0;*/
 
 }
+
 .top {
     padding-left: 12px;
 }
+
 .name {
     padding-top: 5%;
     font-size: 8rem;
@@ -126,7 +129,10 @@ a {
 
 h2 {
     margin-left: 15px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
 }
+
 #about-p {
     font-size: 1.75rem;
 }
@@ -135,7 +141,7 @@ h2 {
 
 .work {
     background-attachment: fixed;
-    background-image: url('desk2.jpg');
+    background-image: url('./images/desk2.jpg');
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -154,7 +160,7 @@ h2 {
 
 @media (max-width: 768px) and (min-width: 375px) {
     #work {
-        width:80%;
+        width: 80%;
     }
 }
 
@@ -228,10 +234,11 @@ h2 {
 }
 
 @media (min-width: 768px) {
-.skills-inner {
-    width: 738px;
+    .skills-inner {
+        width: 738px;
+    }
 }
-}
+
 .skill-circle {
     display: inline-table;
     margin-bottom: 55px;
@@ -263,19 +270,19 @@ h2 {
 }
 
 #html-load2 {
-    margin-top: -160px;
+    margin-top: -137px;
+}
+
+#css-load2 {
+    margin-top: -150px;
 }
 
 #js-load2 {
-    margin-top: -155px;
+    margin-top: -165px;
 }
 
 #py-load2 {
     margin-top: -145px;
-}
-
-#sql-load2 {
-    margin-top: -130px;
 }
 
 #dj-load2 {
@@ -291,20 +298,6 @@ h2 {
     left: 0px;
     top: 50px;
     position: absolute;
-}
-
-.arc-lowerInset {
-    font-family: "Josefin Sans";
-    font-weight: 100;
-    position: absolute;
-    font-size: 413px;
-    margin-top: -64px;
-    z-index: 5;
-    left: 30px;
-    line-height: 327px;
-    height: 280px;
-    color: white;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
 }
 
 .arc-overlay {
@@ -357,7 +350,7 @@ h2 {
 
 .contact {
     background-attachment: fixed;
-    background-image: url('computer.jpg');
+    background-image: url('./images/computer.jpg');
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;

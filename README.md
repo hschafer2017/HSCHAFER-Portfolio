@@ -7,9 +7,10 @@ This is a portfolio website to present to prospective employers. The porfolio hi
 A live demo can be found [here](https://hschafer2017.github.io/HSCHAFER-Portfolio/). 
 
 ## UX
-My goal in the design was to make it as easy as possible to access information on the site, while striving for a minimalist design. The greyscale color scheme was choosen to create a sleek and modern feel. 
+My goal in the design was to make it as easy as possible to access information on the site, while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel. 
 
-For employers, I wanted them to be able to quickly access work that I've done, via the skill cards in the 'Work' sections, while also being able to view my CV. 
+For employers, I wanted to provide them with a brief overview of myself and my capabilites via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access. 
+
 
 ![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/ResponsiveDesign.gif "Desktop Demo")
 
@@ -39,7 +40,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me. 
 
 ### Media 
-All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. 
+All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme. 
 
 ### Acknowledgements 
 The scrollSpy delay JavaScript function was found through this tutorial [here](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2). 

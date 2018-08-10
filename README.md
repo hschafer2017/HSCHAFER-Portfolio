@@ -20,8 +20,12 @@ For employers, I wanted to provide them with a brief overview of myself and my c
 3. Bootstrap
 
 ## Features
+This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design. 
+
 
 ### Features Left to Implement 
+In the future, I would like to add further projects that I've worked on to create a more comprehensive 'work/travail' section. I would like to also add animations to the progress circles in the "skills/compétences" section to animate in some way on hover. 
+
 
 ## Testing 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. 

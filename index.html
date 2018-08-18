@@ -16,7 +16,7 @@
 
 
     <!------------TOP JUMBOTRON/NAVBAR------------>
-    <div class="jumbotron main">
+    <div class="jumbotron landing-view-section">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
             <div class="container" style="text-align: right;
     margin-right: 1%;
@@ -55,32 +55,30 @@
     </div>
 
     <!---------ABOUT ME---------->
-
-    <div class="container about-row">
-        <div class="row" id='about'>
+    <div class="about-me-section">
+        <div class="container about-row">
+            <div class="row" id='about'>
+                <br>
+                <br>
+                <h2>About</h2>
+                <br>
+            </div>
+            <div class="col-xs-hidden col-sm-6">
+                <p id='about-p'>I am experienced in sales and tech industry-focused client management. Transitioning into software development, I am a recent graduate of Code Institute working with front-end and back-end frameworks. </p>
+                <br>
+                <p id='about-p' class='hidden-sm'>I specialise in HTML, CSS, JavaScript, and Python languages, using Django and Flask frameworks. Passionate about creating a positive user experience, I enjoy working with and adapting to technologies as they develop. </p>
+            </div>
+            <div class="col-xs-hidden col-sm-6">
+            <p id='about-p' class='hidden-xs hidden-md hidden-lg'>I specialise in HTML, CSS, JavaScript, and Python languages, using Django and Flask frameworks. Passionate about creating a positive user experience, I enjoy working with and adapting to technologies as they develop. </p>
+            </div>
             <br>
             <br>
-            <h2>About</h2>
-            <br>
-        </div>
-        <div class="col-xs-hidden col-sm-4">
-            <p id='about-p'>I am experienced in sales and tech industry-focused client management. Transitioning into software development, I am a recent graduate of Code Institute working with front-end and back-end frameworks. </p>
-        </div>
-
-        <div class="col-xs-hidden col-sm-4">
-            <p id='about-p'>I specialise in HTML, CSS, JavaScript, and Python languages, using Django and Flask frameworks. Passionate about creating a positive user experience, I enjoy working with and adapting to technologies as they develop. </p>
-        </div>
-        <div class="col-xs-hidden col-sm-4">
-
         </div>
         <br>
         <br>
-    </div>
-    <br>
-    <br>
     </div>
     <!--------------WORK------------->
-    <div class="jumbotron work">
+    <div class="jumbotron work-section">
         <div class="container" id='work'>
             <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
@@ -141,7 +139,7 @@
                         <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, Bootstrap</h6>
                         <p id="card-text">A static website to showcase developer projects for prospective employers.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="#" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
+                            <a href="https://hschafer2017.github.io/HSCHAFER-Portfolio/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
                             <a href="https://github.com/hschafer2017/HSCHAFER-Portfolio" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
                         </div>
                     </div>
@@ -154,7 +152,7 @@
                         <h6 class="card-subtitle mb-2 text-muted">JavaScript, API, HTML, CSS</h6>
                         <p id="card-text">Using an API, search for the current weather data for a location.</p>
                         <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="#" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
+                            <a href="https://hschafer2017.github.io/Weather-Search-API/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
                             <a href="https://github.com/hschafer2017/Weather-Search-API" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
                         </div>
                     </div>
@@ -164,90 +162,91 @@
     </div>
 
     <!------------SKILLS------------>
-    <div class="container skills">
-        <div class="row skills-row" id='skills'>
-            <br>
-            <br>
-            <h2>Skills</h2>
-        </div>
-        <div class="container skills-inner">
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='html'>.html</p>
-                    </div>
-                    <div class="arc-wrapper">
-                        <div id='html-load2' class="arc2"></div>
-                        <div class="arc1"></div>
-                    </div>
+    <div class="skills-section">
+        <div class="container skills">
+            <div class="row skills-row" id='skills'>
+                <br>
+                <br>
+                <h2>Skills</h2>
+            </div>
+            <div class="container skills-inner">
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='html'>.html</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='html-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
 
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='css'>.css</p>
-                    </div>
-                    <div class="arc-wrapper">
-                        <div id='css-load2' class="arc2 "></div>
-                        <div class="arc1"></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='js'>.js</p>
-                    </div>
-                    <div class="arc-wrapper">
-                        <div id='js-load2' class="arc2"></div>
-                        <div class="arc1"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='py'>.py</p>
-                    </div>
-                    <div class="arc-wrapper">
-                        <div id='py-load2' class="arc2"></div>
-                        <div class="arc1"></div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='css'>.css</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='css-load2' class="arc2 "></div>
+                            <div class="arc1"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='sql'>SQL</p>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='js'>.js</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='js-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
                     </div>
-                    <div class="arc-wrapper">
+                </div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='py'>.py</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='py-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='sql'>SQL</p>
+                        </div>
+                        <div class="arc-wrapper">
 
-                        <div class="arc1"></div>
+                            <div class="arc1"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 skill-circle">
-                <div class="arc-container">
-                    <div class="arc-overlay">
-                        <p class='django'>Django</p>
-                    </div>
-                    <div class="arc-wrapper">
-                        <div id='dj-load2' class="arc2"></div>
-                        <div class="arc1"></div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='django'>Django</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='dj-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <br>
-            <br>
+                <br>
+                <br>
 
-            <br>
-            <br>
+                <br>
+                <br>
+            </div>
         </div>
     </div>
-
     <!---------CONTACT--------->
-    <div class="jumbotron contact">
+    <div class="jumbotron contact-section">
         <div class="container" id='contact'>
             <div class="col-sm-6"></div>
             <div class="col-xs-12 col-sm-6 contact-form">
@@ -279,7 +278,7 @@
                         </div>
                     </div>
                     <br>
-                    <input type="submit" value='Send' id='contact-btn' placeholder='Send' class="btn btn-default">
+                    <input type="submit" value='Send' id='contact-btn' class="btn btn-default">
                 </form>
             </div>
         </div>
@@ -293,7 +292,7 @@
                     <a href="https://www.linkedin.com/in/haleyschafer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://www.github.com/hschafer2017" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="SCHAFER_JuniorDevCV.pdf" download><i class="fas fa-file-download"></i></a>
-                    <a href="#" style='padding-right: 0px' target="_blank"><i class="fab fa-medium-m"></i></a>
+                    <a href="https://medium.com/@haleyschafer" style='padding-right: 0px' target="_blank"><i class="fab fa-medium-m"></i></a>
                 </div>
             </div>
         </div>

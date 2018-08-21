@@ -98,7 +98,7 @@ a {
 
 .landing-view-section {
     background-attachment: fixed;
-    background-image: url('./images/jumbo2.jpg');
+    background-image: url('./images/landing.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -142,7 +142,7 @@ h2 {
 
 .work-section {
     background-attachment: fixed;
-    background-image: url('./images/desk2.jpg');
+    background-image: url('./images/desk.jpg');
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -158,31 +158,6 @@ h2 {
     justify-content: center;
     align-items: center;
 
-}
-
-@media (max-width: 768px) and (min-width: 375px) {
-    #work {
-        width: 80%;
-    }
-}
-
-@media (min-width: 992px) {
-    .about-me-section {
-        background-image: url('./images/haley2.jpg');
-        background-position: center;
-        background-size: cover;
-        width: 100vw;
-    }
-    .skills-section {
-        background-image: url('./images/skills.jpg');
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-    }
-    .contact-section {
-        height: 100vh;
-    }
 }
 
 .col-xs-6 {
@@ -222,7 +197,7 @@ h2 {
 }
 
 #card-text {
-        font-size: 1.07em;
+    font-size: 1.07em;
 }
 
 #desktop-icon {
@@ -250,8 +225,9 @@ h2 {
 /*--------SKILLS-----------*/
 
 .skills {
+    position: relative;
+    top: 12%;
     padding-bottom: 96px;
-
 }
 
 @media (min-width: 768px) {
@@ -319,7 +295,6 @@ h2 {
     left: 0px;
     top: 50px;
     position: absolute;
-    box-shadow: 0px 0px 25px #d3d3d3;
 }
 
 .arc-overlay {
@@ -381,6 +356,11 @@ h2 {
     margin-bottom: 30px;
 }
 
+.contact-form {
+    position: relative;
+    top: 6%;
+}
+
 #contact-head {
     margin-left: -11px;
 }
@@ -436,4 +416,34 @@ i {
 i:hover {
     color: #564F6F;
 
+}
+
+/*-----------MEDIA QUERIES----------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    #work {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .landing-view-section, .work-section, .contact-section {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-me-section {
+        background-image: url('./images/haley.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .skills-section {
+        background-image: url('./images/skills.jpg');
+        background-position: center;
+        background-size: cover;
+        /*height: 100vh;*/
+        width: 100vw;
+    }
 }

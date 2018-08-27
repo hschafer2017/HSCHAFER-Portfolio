@@ -18,10 +18,7 @@ body {
 }
 
 .navbar-nav li a {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 20px 25px 15px 25px;
     color: transparent;
 }
 
@@ -443,7 +440,6 @@ i:hover {
         background-image: url('./images/skills.jpg');
         background-position: center;
         background-size: cover;
-        /*height: 100vh;*/
         width: 100vw;
     }
 }

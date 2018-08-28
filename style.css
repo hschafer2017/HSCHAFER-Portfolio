@@ -424,7 +424,9 @@ i:hover {
 }
 
 @media (max-width: 992px) {
-    .landing-view-section, .work-section, .contact-section {
+    .landing-view-section,
+    .work-section,
+    .contact-section {
         background-attachment: scroll;
     }
 }

@@ -1,7 +1,7 @@
 # Haley Schafer Portfolio
 Stream One Project: User Centric Frontend Development - Code Institute 
 
-This is my portfolio website to present to prospective employers. The porfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
+This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
 
 
 ## Demo
@@ -13,7 +13,7 @@ A live demo can be found [here](https://hschafer2017.github.io/HSCHAFER-Portfoli
 ## UX
 My goal in the design was to make it as easy as possible to access information on the site, while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel. 
 
-For employers, I wanted to provide them with a brief overview of myself and my capabilites via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access. 
+For employers, I wanted to provide them with a brief overview of myself and my capabilities via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access. 
 
 
 ## Technologies
@@ -37,7 +37,7 @@ All links will open in a new tab using 'target="_blank"' and the CV will downloa
 
 By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar. 
 
-This site was tested across multiple browsers and on multiple mobile devices to ensure compatability and responsiveness. During the testing phase, I realized that ```background-attachement: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query. 
+This site was tested across multiple browsers and on multiple mobile devices to ensure compatibility and responsiveness. During the testing phase, I realized that ```background-attachment: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query. 
 
 
 ## Deployment 
@@ -50,7 +50,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me. 
 
 ### Media 
-All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme. 
+All photos were taken from [Pexels](https://www.pexels.com/), a stock image library, with the exception of the photo of myself in the background of the 'about me/À Propos' section in the desktop view. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme. 
 
 ### Acknowledgements 
 The scrollSpy delay JavaScript function was found through this tutorial [here](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2). 

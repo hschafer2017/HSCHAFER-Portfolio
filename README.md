@@ -19,7 +19,7 @@ For employers, I wanted to provide them with a brief overview of myself and my c
 ## Technologies
 1. HTML
 2. CSS
-3. Bootstrap
+3. Bootstrap (3.3.7)
 
 
 ## Features

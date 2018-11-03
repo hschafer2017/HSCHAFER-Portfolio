@@ -96,7 +96,7 @@ a {
 
 .landing-view-section {
     background-attachment: fixed;
-    background-image: url('./images/landing.jpg');
+    background-image: url('../images/landing.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -140,7 +140,7 @@ h2 {
 
 .work-section {
     background-attachment: fixed;
-    background-image: url('./images/desk.jpg');
+    background-image: url('../images/desk.jpg');
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -345,7 +345,7 @@ h2 {
 
 .contact-section {
     background-attachment: fixed;
-    background-image: url('./images/computer.jpg');
+    background-image: url('../images/computer.jpg');
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -434,13 +434,13 @@ i:hover {
 
 @media (min-width: 992px) {
     .about-me-section {
-        background-image: url('./images/haley.jpg');
+        background-image: url('../images/haley.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
     }
     .skills-section {
-        background-image: url('./images/skills.jpg');
+        background-image: url('../images/skills.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;

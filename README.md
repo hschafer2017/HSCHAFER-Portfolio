@@ -41,7 +41,7 @@ This site was tested across multiple browsers and on multiple mobile devices to 
 
 
 ## Deployment 
-This site is hosted using GitHub pages, deployed directly from the master branch. 
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing must be named `index.html` and have a `README.md`. 
 
 
 ## Credits

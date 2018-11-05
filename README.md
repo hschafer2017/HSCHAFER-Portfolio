@@ -43,6 +43,8 @@ This site was tested across multiple browsers and on multiple mobile devices to 
 ## Deployment 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing must be named `index.html` and have a `README.md`. 
 
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal. 
+
 
 ## Credits
 

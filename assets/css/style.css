@@ -102,7 +102,7 @@ a {
     height: 100vh;
     width: 100vw;
     margin-bottom: 0px;
-
+    z-index: 1;
 }
 
 .top {
@@ -116,6 +116,29 @@ h1 {
 
 .jumbotron p {
     font-size: 2em;
+}
+
+/* ---------ARROW----------- */
+
+@keyframes jump { 0% { top: 0; } 50% { top: 50px; } 100% { top: 0; } }
+
+#arrow-down { 
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    animation: jump 5s infinite;
+}
+.fa-chevron-down {
+    line-height: 0px;
+    color: rgb(221, 218, 218);
+    font-size: 7.5em;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    box-shadow: none;
+    background-color: transparent;
+    margin-top: 10vh;
 }
 
 /*------------ABOUT----------*/
@@ -422,6 +445,9 @@ i:hover {
     #work {
         width: 80%;
     }
+    .fa-chevron-down {
+        margin-top: 52vh;
+    }
 }
 
 @media (max-width: 992px) {
@@ -444,5 +470,8 @@ i:hover {
         background-position: center;
         background-size: cover;
         width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 40vh;
     }
 }

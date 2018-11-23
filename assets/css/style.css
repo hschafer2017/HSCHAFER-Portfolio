@@ -23,6 +23,12 @@ body {
     color: transparent;
 }
 
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
 
 .language {
     display: inline-block;
@@ -94,7 +100,7 @@ a {
 
 /*----------JUMBOTRON----------*/
 
-.landing-view-section {
+#landing-view {
     background-attachment: fixed;
     background-image: url('../images/landing.jpg');
     background-position: bottom;
@@ -155,13 +161,13 @@ h2 {
     text-transform: uppercase;
 }
 
-#about-p {
+.about-row .about-p {
     font-size: .8em;
 }
 
 /*------------WORK----------*/
 
-.work-section {
+#work {
     background-attachment: fixed;
     background-image: url('../images/desk.jpg');
     background-position: center;
@@ -172,6 +178,11 @@ h2 {
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .project-cards {
@@ -217,11 +228,11 @@ h2 {
     font-weight: bold;
 }
 
-#card-text {
+.card-body .card-text {
     font-size: 1.07em;
 }
 
-#desktop-icon {
+.desktop-icon {
     padding: 20px 0;
     border-radius: 50%;
     font-size: 34px;
@@ -230,17 +241,13 @@ h2 {
     line-height: 18px;
 }
 
-#github-icon {
+.github-icon {
     padding: 20px 0;
     border-radius: 50%;
     font-size: 36px;
     width: 54px;
     height: 54px;
-    line-height: 15px;
-}
-
-.fa-desktop {
-    font-size: 25px;
+    line-height: 14px;
 }
 
 /*--------SKILLS-----------*/
@@ -366,7 +373,7 @@ h2 {
 
 /*-------CONTACT-----------*/
 
-.contact-section {
+#contact {
     background-attachment: fixed;
     background-image: url('../images/computer.jpg');
     background-position: left;
@@ -409,8 +416,7 @@ a {
     background-color: transparent;
 }
 
-.fab,
-.fas {
+.alignment {
     line-height: 2px;
 }
 
@@ -451,21 +457,19 @@ i:hover {
 }
 
 @media (max-width: 992px) {
-    .landing-view-section,
-    .work-section,
-    .contact-section {
+    .scroll {
         background-attachment: scroll;
     }
 }
 
 @media (min-width: 992px) {
-    .about-me-section {
+    #about-me {
         background-image: url('../images/haley.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
     }
-    .skills-section {
+    #skills {
         background-image: url('../images/skills.jpg');
         background-position: center;
         background-size: cover;

@@ -12,26 +12,19 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Haley Schafer Portfolio</title>
 </head>
-
 <body>
-
-
-    <!------------TOP JUMBOTRON/NAVBAR------------>
-    <div class="jumbotron landing-view-section">
+    <!--********TOP JUMBOTRON/NAVBAR*******-->
+    <header class="jumbotron" id="landing-view">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
-            <div class="container" style="text-align: right;
-    margin-right: 1%;
-    margin-top: 1%;">
+            <div class="container">
                 <div class="navbar-header">
                     <a href="index.html" class='language'>en</a>
                     <button id='scroll-button' type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -39,9 +32,8 @@
                         <li><a class='page-scroll' href="#work">Travail</a></li>
                         <li><a class='page-scroll' href="#skills">Compétences</a></li>
                         <li><a class='page-scroll' href="#contact">Contacter</a></li>
-                        <li><a href="assets/images/SCHAFER_JuniorDevCV.pdf" target='_blank'>CV</a></li>
+                        <li><a href="assets/cv/SCHAFER_JuniorDevCV.pdf" target='_blank'>CV</a></li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -58,49 +50,50 @@
         </div>
         <div id="container">
             <div id="arrow-down">
-                <a href='#about' class='page-scroll' id='scroll-button'><i class="fas fa-chevron-down"></i></a>
+                <a href='#about' class='page-scroll'><i class="fas fa-chevron-down"></i></a>
             </div>
         </div>
-    </div>
-
-    <!---------ABOUT ME---------->
-    <div class="about-me-section">
-        <div class="container about-row">
-            <div class="row" id='about'>
-                <br>
-                <br>
-                <h2>À Propos</h2>
-                <br>
-                <div class="col-xs-hidden col-sm-6">
-                    <p id='about-p'>Je suis expérimentée dans le domaine de la vente et dans la gestion client dans l'industrie informatique. Orientant ma carrière vers le dévelopement de logiciel, je viens d'être diplomée du Code Institute à Dublin en front-end et back-end. Je
-                        me spécialise dans le développement d'application web.</p>
+    </header>
+    <!--******ABOUT ME******-->
+    <section id="about-me">
+        <div class="about-me-section">
+            <div class="container about-row">
+                <div class="row" id='about'>
                     <br>
-                    <p id='about-p' class='hidden-sm'> Je travaille avec les frameworks Flask et Django (Python), ainsi que les languages HTML, CSS et JavaScript. Passionnée par la création d'une expérience utilisateur la plus agréable possible, j'aime continuellement découvrir et m'approprier les
-                        technologies les plus récentes.</p>
-                </div>
-                <div class="col-xs-hidden col-sm-6">
-                    <p id='about-p' class='hidden-xs hidden-md hidden-lg'> Je travaille avec les frameworks Flask et Django (Python), ainsi que languages HTML, CSS et JavaScript. Passionnée par la création d'une expérience utilisateur la plus agréable possible, j'aime continuellement découvrir et m'approprier les
-                        technologies les plus récentes.</p>
+                    <br>
+                    <h2>À Propos</h2>
+                    <br>
+                    <div class="col-xs-hidden col-sm-6">
+                        <p class='about-p'>Je suis expérimentée dans le domaine de la vente et dans la gestion client dans l'industrie informatique. Orientant ma carrière vers le dévelopement de logiciel, je viens d'être diplomée du Code Institute à Dublin en front-end et back-end. Je
+                            me spécialise dans le développement d'application web.</p>
+                        <br>
+                        <p class='about-p hidden-sm'> Je travaille avec les frameworks Flask et Django (Python), ainsi que les languages HTML, CSS et JavaScript. Passionnée par la création d'une expérience utilisateur la plus agréable possible, j'aime continuellement découvrir et m'approprier les
+                            technologies les plus récentes.</p>
+                    </div>
+                    <div class="col-xs-hidden col-sm-6">
+                        <p class='about-p hidden-xs hidden-md hidden-lg'> Je travaille avec les frameworks Flask et Django (Python), ainsi que languages HTML, CSS et JavaScript. Passionnée par la création d'une expérience utilisateur la plus agréable possible, j'aime continuellement découvrir et m'approprier les
+                            technologies les plus récentes.</p>
+                    </div>
+                    <br>
+                    <br>
                 </div>
                 <br>
                 <br>
             </div>
-            <br>
-            <br>
         </div>
-    </div>
-    <!--------------WORK------------->
-    <div class="jumbotron work-section">
-        <div class="container" id='work'>
+    </section>
+    <!--***********WORK**********-->
+    <section class="jumbotron scroll" id="work">
+        <div class="container">
             <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Timing Assistant</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Flask, JavaScript, MongoDB</h6>
-                        <p id="card-text">Un chronomètre conçu pour les sportifs en particuler pour la natation et l’athlétisme.</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://timing-assistant.herokuapp.com/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Un chronomètre conçu pour les sportifs en particuler pour la natation et l’athlétisme.</p>
+                        <div class="row">
+                            <a href="https://timing-assistant.herokuapp.com/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/Sports-Multi-timer-Assistant" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -110,36 +103,36 @@
                     <div class="card-body">
                         <h5 class="card-title">PC Swimming</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Django, Python, AWS </h6>
-                        <p id="card-text">Un site d’e-commerce pour les nageurs et les anciens de PC Swimming and Diving.</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://pcswimming-project.herokuapp.com/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/PCSwimming" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Un site d’e-commerce pour les nageurs et les anciens de PC Swimming and Diving.</p>
+                        <div class="row">
+                            <a href="https://pcswimming-project.herokuapp.com/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/PCSwimming" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
-                    <div id="card-text">
+                    <div class="card-body">
                         <h5 class="card-title">Give A GIF</h5>
                         <h6 class="card-subtitle mb-2 text-muted">RESTful API, JavaScript, Flask, Python</h6>
-                        <p id="card-text">Un générateur aléatoire de GIF, utilisant un RESTful API. </p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://hschafer2017.github.io/Give-A-GIF/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/Give-A-GIF" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Un générateur aléatoire de GIF, utilisant un RESTful API. </p>
+                        <div class="row">
+                            <a href="https://hschafer2017.github.io/Give-A-GIF/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/Give-A-GIF" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4 project-cards">
                 <div class="card">
-                    <div id="card-text">
+                    <div class="card-body">
                         <h5 class="card-title">Bop It! Game</h5>
                         <h6 class="card-subtitle mb-2 text-muted">JavaScript, jQuery, HTML</h6>
-                        <p id="card-text">Inspiré par le jeu d’enfants, et optimisé pour une utilisation ordinateur et mobile.</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://hschafer2017.github.io/Stream-Two-Project/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/Stream-Two-Project" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Inspiré par le jeu d’enfants, et optimisé pour une utilisation ordinateur et mobile.</p>
+                        <div class="row">
+                            <a href="https://hschafer2017.github.io/Stream-Two-Project/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/Stream-Two-Project" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -149,10 +142,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Portfolio Site</h5>
                         <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, Bootstrap</h6>
-                        <p id="card-text">Un site statique à presenter les projets pour les employeurs prospectifs</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://hschafer2017.github.io/HSCHAFER-Portfolio/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/HSCHAFER-Portfolio" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Un site statique à presenter les projets pour les employeurs prospectifs</p>
+                        <div class="row">
+                            <a href="https://hschafer2017.github.io/HSCHAFER-Portfolio/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/HSCHAFER-Portfolio" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -162,21 +155,20 @@
                     <div class="card-body">
                         <h5 class="card-title">World Wide Weather</h5>
                         <h6 class="card-subtitle mb-2 text-muted">JavaScript, API, HTML, CSS</h6>
-                        <p id="card-text">Utilisant un API, recherche les données météo actuelles pour votre ville.</p>
-                        <div class="row" style='text-align: center; padding-top: 10px;'>
-                            <a href="https://hschafer2017.github.io/Weather-Search-API/" class="card-link" target="_blank"><i class="fas fa-desktop" id='desktop-icon'></i></a>
-                            <a href="https://github.com/hschafer2017/Weather-Search-API" class="card-link" target="_blank"><i class="fab fa-github" id='github-icon'></i></a>
+                        <p class="card-text">Utilisant un API, recherche les données météo actuelles pour votre ville.</p>
+                        <div class="row">
+                            <a href="https://hschafer2017.github.io/Weather-Search-API/" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="https://github.com/hschafer2017/Weather-Search-API" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!------------SKILLS------------>
-    <div class="skills-section">
+    </section>
+    <!--**********SKILLS**********-->
+    <section id="skills">
         <div class="container skills">
-            <div class="row skills-row" id='skills'>
+            <div class="row skills-row">
                 <br>
                 <br>
                 <h2>Compétences</h2>
@@ -255,10 +247,10 @@
                 <br>
             </div>
         </div>
-    </div>
-    <!---------CONTACT--------->
-    <div class="jumbotron contact-section">
-        <div class="container" id='contact'>
+    </section>
+    <!--********CONTACT**********-->
+    <section class="jumbotron scroll" id="contact">
+        <div class="container">
             <div class="col-sm-6"></div>
             <div class="col-xs-12 col-sm-6 contact-form">
                 <br>
@@ -293,24 +285,22 @@
                 </form>
             </div>
         </div>
-    </div>
-
-    <!---------FOOTER--------->
+    </section>
+    <!--********FOOTER********-->
     <footer>
         <div class="container">
             <div class="row foot">
                 <div class="col-xs-12 col-sm-12 icons">
-                    <a href="https://www.linkedin.com/in/haleyschafer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.github.com/hschafer2017" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="assets/images/SCHAFER_JuniorDevCV.pdf" download><i class="fas fa-file-download"></i></a>
-                    <a href="https://medium.com/@haleyschafer" style='padding-right: 0px' target="_blank"><i class="fab fa-medium-m"></i></a>
+                    <a href="https://www.linkedin.com/in/haleyschafer" target="_blank"><i class="fab fa-linkedin-in alignment"></i></a>
+                    <a href="https://www.github.com/hschafer2017" target="_blank"><i class="fab fa-github alignment"></i></a>
+                    <a href="assets/cv/SCHAFER_JuniorDevCV.pdf" download><i class="fas fa-file-download alignment"></i></a>
+                    <a href="https://medium.com/@haleyschafer" target="_blank"><i class="fab fa-medium-m alignment"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="./libraries/jquery.min.js"></script>
-    <script type="text/javascript" src="./libraries/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script src="./libraries/jquery.min.js"></script>
+    <script src="./libraries/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
-
 </html>

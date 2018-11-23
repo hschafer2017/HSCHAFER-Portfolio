@@ -7,7 +7,7 @@ This is my portfolio website to present to prospective employers. The portfolio 
 ## Demo
 A live demo can be found [here](https://hschafer2017.github.io/HSCHAFER-Portfolio/). 
 
-![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/assets/images/portfolio.gif "Desktop Demo")
+![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/assets/images/portfolioview.gif "Desktop Demo")
 
 
 ## UX

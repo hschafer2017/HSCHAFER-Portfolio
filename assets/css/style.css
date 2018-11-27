@@ -113,6 +113,7 @@ a {
 
 .top {
     padding-left: 12px;
+    margin-top: 12%;
 }
 
 h1 {
@@ -157,12 +158,14 @@ h1 {
 
 h2 {
     margin-left: 15px;
+    margin-top: 15%;
     letter-spacing: 7px;
     text-transform: uppercase;
 }
 
 .about-row .about-p {
     font-size: .8em;
+    margin: 40px 0px 40px 0px;
 }
 
 /*------------WORK----------*/
@@ -256,6 +259,10 @@ h2 {
     position: relative;
     top: 12%;
     padding-bottom: 96px;
+}
+
+.skills-inner {
+    margin-bottom: 10%;
 }
 
 @media (min-width: 768px) {
@@ -390,11 +397,11 @@ h2 {
 }
 
 #contact-head {
-    margin-left: -11px;
+    margin: 30px -11px 25px 0px;
 }
 
-#contact-btn {
-    margin-left: -15px;
+.contact {
+    margin: 15px 0px 15px 0px;
 }
 
 /*-----------FOOTER----------*/
@@ -409,10 +416,7 @@ footer {
 }
 
 a {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5px 15px 5px 10px;
     background-color: transparent;
 }
 
@@ -448,7 +452,7 @@ i:hover {
 /*-----------MEDIA QUERIES----------*/
 
 @media (max-width: 768px) and (min-width: 375px) {
-    #work {
+    .scroll-work {
         width: 80%;
     }
     .fa-chevron-down {

@@ -29,7 +29,6 @@ body {
     margin-top: 1%;
 }
 
-
 .language {
     display: inline-block;
     padding-right: 20px;
@@ -135,6 +134,7 @@ h1 {
     text-align: center;
     animation: jump 5s infinite;
 }
+
 .fa-chevron-down {
     line-height: 0px;
     color: rgb(221, 218, 218);

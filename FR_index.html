@@ -32,7 +32,7 @@
                         <li><a class='page-scroll' href="#work">Travail</a></li>
                         <li><a class='page-scroll' href="#skills">Compétences</a></li>
                         <li><a class='page-scroll' href="#contact">Contacter</a></li>
-                        <li><a href="assets/cv/SCHAFER_JuniorDevCV.pdf" target='_blank'>CV</a></li>
+                        <li><a href="assets/cv/SCHAFER_DevCV.pdf" target='_blank'>CV</a></li>
                     </ul>
                 </div>
             </div>
@@ -235,7 +235,7 @@
             <div class="col-sm-6"></div>
             <div class="col-xs-12 col-sm-6 contact-form">
                 <h2 id='contact-head'>Contacter</h2>
-                <form>
+                <form id='contact-form'>
                     <div class="row contact">
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputName" name='Name' placeholder="Nom" required>
@@ -269,12 +269,33 @@
                 <div class="col-xs-12 col-sm-12 icons">
                     <a href="https://www.linkedin.com/in/haleyschafer" target="_blank"><i class="fab fa-linkedin-in alignment"></i></a>
                     <a href="https://www.github.com/hschafer2017" target="_blank"><i class="fab fa-github alignment"></i></a>
-                    <a href="assets/cv/SCHAFER_JuniorDevCV.pdf" download><i class="fas fa-file-download alignment"></i></a>
+                    <a href="assets/cv/SCHAFER_DevCV.pdf" download><i class="fas fa-file-download alignment"></i></a>
                     <a href="https://medium.com/@haleyschafer" target="_blank"><i class="fab fa-medium-m alignment"></i></a>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- *******CONTACT FORM MODAL******* -->
+    <div class="modal fade" tabindex="-1" role="dialog" id='contactFormModal'>
+            <br><br><br><br><br>
+            <div class="modal-dialog" role="document">
+                <br><br><br>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Contacter</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class='header'> À propos de cette formulaire:</p>
+                            <p>Cette formulaire ne marche pas actuellement ou garder vos détails, elle REFRESHES la page simplement. De plus, ce site ne garde pas des détails personnelles. Veuillez consulter le <a class='privacy-policy' href="privacy_policy.html"> PRIVACY POLICY</a> pour plus de détails.</p>
+                            
+                        <div class="modal-footer">
+                            <button class='btn btn-md btn-default' data-dismiss="modal">Je comprends!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="./libraries/jquery.min.js"></script>
     <script src="./libraries/bootstrap.min.js"></script>
     <script src="assets/js/index.js"></script>

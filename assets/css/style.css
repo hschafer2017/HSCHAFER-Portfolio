@@ -449,6 +449,22 @@ i:hover {
 
 }
 
+/* ----------Contact Form  Modal --------*/
+
+.modal-body {
+    font-size: 1.15em;
+}
+
+.btn-default {
+    background-color: #ccc;
+}
+
+.privacy-policy {
+    color: #424242;
+    font-family: 'Nobile', sans-serif;
+    padding: 0;
+}
+
 /*-----------MEDIA QUERIES----------*/
 
 @media (max-width: 768px) and (min-width: 375px) {

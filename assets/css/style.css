@@ -124,29 +124,6 @@ h1 {
     font-size: 2em;
 }
 
-/* ---------ARROW----------- */
-
-@keyframes jump { 0% { top: 0; } 50% { top: 50px; } 100% { top: 0; } }
-
-#arrow-down { 
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    animation: jump 5s infinite;
-}
-
-.fa-chevron-down {
-    line-height: 0px;
-    color: rgb(221, 218, 218);
-    font-size: 7.5em;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    box-shadow: none;
-    background-color: transparent;
-    margin-top: 10vh;
-}
 
 /*------------ABOUT----------*/
 
@@ -477,7 +454,7 @@ i:hover {
 }
 
 @media (max-width: 992px) {
-    .scroll {
+    #contact, #work, #landing-view{
         background-attachment: scroll;
     }
 }

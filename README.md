@@ -5,7 +5,7 @@ This is my portfolio website to present to prospective employers. The portfolio 
 
 
 ## Demo
-A live demo can be found [here](https://haleyschafer.com).
+A live demo can be found [here](https://www.haleyschafer.com/).
 
 ![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/assets/images/portfolioview.gif "Desktop Demo")
 

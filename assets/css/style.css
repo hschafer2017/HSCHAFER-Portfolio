@@ -442,6 +442,15 @@ i:hover {
     padding: 0;
 }
 
+a.privacy-policy {
+    font-size: inherit;
+}
+
+a.privacy-policy:hover {
+    color: #564F6F;
+    text-decoration: none;
+}
+
 /*-----------MEDIA QUERIES----------*/
 
 @media (max-width: 768px) and (min-width: 375px) {

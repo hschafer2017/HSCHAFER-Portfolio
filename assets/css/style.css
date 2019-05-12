@@ -188,7 +188,7 @@ h2 {
     align-items: center;
     z-index: 2;
     display: block;
-    opacity: 0.8;
+    opacity: 0.75;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
@@ -224,10 +224,10 @@ h2 {
 .github-icon {
     padding: 20px 0;
     border-radius: 50%;
-    font-size: 36px;
+    font-size: 40px;
     width: 54px;
     height: 54px;
-    line-height: 14px;
+    line-height: 15px;
 }
 
 /*--------SKILLS-----------*/
@@ -393,12 +393,12 @@ footer {
 }
 
 a {
-    padding: 5px 15px 5px 10px;
+    padding: 5px 18px 5px 18px;
     background-color: transparent;
 }
 
 .alignment {
-    line-height: 2px;
+    line-height: 16px;
 }
 
 i {
@@ -406,17 +406,17 @@ i {
     box-shadow: 0px 0px 2px #888;
     background-color: #C3C3C3;
     color: #8F8F8F;
-    width: 41px;
-    height: 41px;
+    width: 55px;
+    height: 55px;
     padding: 20px 0;
     border-radius: 50%;
-    font-size: 28px;
+    font-size: 38px;
     text-align: center;
     vertical-align: middle;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    margin-top: 2.5px;
+    margin-top: 0;
     margin-bottom: 2.5px;
 
 }
@@ -465,6 +465,9 @@ a.privacy-policy:hover {
 @media (max-width: 992px) {
     #contact, #work, #landing-view{
         background-attachment: scroll;
+    }
+    #landing-view {
+        height: 135vh;
     }
 }
 
